@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Yanone+Kaffeesatz');
+h1, h2, h3, h4, h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing:1.5px;
+}
+body{
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+img{
+    display: block; 
+    max-width: 100%;
+
+}
+.contenedor{
+    margin:auto;
+    width: 99%;
+
+}
+/*********************** ESTILOS DEL HEADER***********/
+
+.header{
+    height: 60px;
+}
+.header .contenedor{    
+    display: flex; /*ára enjacojanr los elementos en automatico*/
+    justify-content: space-between;
+
+}
+.icon-bars{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #FBA919;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px; 
+    margin-left: auto;
+    cursor: pointer;
+    
+
+}
+/*ESTILOS DEL MENU*/
+.nav{
+    position: absolute;
+    top: 60px;
+    left: -100%;    
+    width: 100%;
+    transition: all 0.4s;
+
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo, .icon-bars{  
+    margin: 5px;
+
+}
+
+.menu_link{
+    display: block;
+    padding: 15px;
+    background: #FBA919;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.menu_link:hover, .select{
+    background: white;
+    color: #FBA219;
+}
+.mostrar{
+    left: 0;
+}
