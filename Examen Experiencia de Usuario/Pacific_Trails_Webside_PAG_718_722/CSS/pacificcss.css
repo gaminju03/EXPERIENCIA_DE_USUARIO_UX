@@ -1,0 +1,164 @@
+header, nav, main, footer { display: block; }
+* { box-sizing: border-box; }
+
+body
+{
+    background-color: #3399CC;
+    color: #666666;
+    font-family: Arial;
+    background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC)
+
+}
+header
+{
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia;
+   
+}
+
+h1{
+background-repeat: no-repeat;   
+background-image: url("../img/sunset.jpg");
+background-position: right;
+line-height: 200%;
+padding-left: 0.1em;
+height: 72px;
+
+color: #FFFFFF;
+margin-left: 170px;
+
+
+}
+
+
+
+
+h2{
+    color: #3399CC;
+    font-family: Georgia;
+
+    background-color: #ffffff;											/* White background */
+  	text-shadow: 1px 1px 1px #CCCCCC;
+
+}
+h3{
+    color:#000033;
+}
+
+dt
+{
+    color: #000033;
+
+    font-size: 1.2em;
+
+}
+footer{
+    text-align: center;
+    font-size: 0.em;
+    font-style: italic;
+    padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    
+}
+.resort{
+    color: #000033;
+    font-size: 1.2em;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+    background-color:  #000033;
+    min-width: 700px;
+    max-width: 1024;
+    box-shadow: 3px 3px 3px #333333;
+    
+
+}
+main{
+    padding-right: 2em;
+    background: #FFFFFF;
+    margin-left: 170;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+#homehero{
+    height: 300px;
+    background-repeat: no-repeat;   
+    background-image: url("../img/coast.jpg");
+    background-size: 100% 100%;
+    margin-left: 170px;
+    
+}
+#yurthero{
+    height: 300px;
+    background-repeat: no-repeat;   
+    background-image: url("../img/yurt.jpg");
+    background-size: 100% 100%;
+    margin-left: 170px;
+    
+}
+
+
+#trailhero{
+    height: 300px;
+    background-repeat: no-repeat;   
+    background-image: url("/img/trail.jpg");
+    background-size: 100% 100%;
+    margin-left: 170px;
+    
+}
+
+#hyperlink{
+    text-decoration: none;
+}
+
+
+
+nav a:link { color: #FFFFFF; }
+
+
+
+ul{
+    padding-left: 1em;
+}
+
+nav 
+			{
+			float: left;														/* Separates the nav area to the left  */
+			width: 160px;														/*floated nav area is 160 pixels wide */
+			font-weight: bold;													/* Bold text */
+  			padding: 20px;
+  			display: block;														/* Padding is 20 pixels all around */
+  			}																	
+nav a 		
+			{
+			text-decoration: none;												/* Eliminates hyperlink underline */ 
+			}																	
+nav ul
+			{
+			list-style-type: none;												/* Eliminates list marker for ul */
+			margin: 0;															/* 0 margin */
+			padding-left: 0px;													/* 0 left padding */
+			font-size: 1.2em;													/* Mid-sized font */
+			}
+nav li
+			{
+			display: block;														/* Stacks nav text like blocks */
+			}
+nav a:link
+			{
+			color: #000033;														/* Navy blue text */
+			}
+nav a:visited
+			{
+			color: #344873;														/* Blue nav text has been visited */
+			}																	
+nav a:hover
+			{
+			color: #FFFFFF;														/* Nav text turns white as cursor hovers over it */
+			}
