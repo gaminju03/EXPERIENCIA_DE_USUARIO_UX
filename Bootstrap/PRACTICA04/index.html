@@ -1,188 +1,164 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>IE Novel</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>IE NOVEL</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="./CSS/estilos.css">
-        <link rel="stylesheet" href="./vendors/fontastic/styles.css">
-    </head>
-    <body>
-        <header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./vendors/fontastic/styles.css">
+  </head>
+  <body>
 
-            <div class="container">
-
-                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">IE Novel</a>
-                    <button
-                        class="navbar-toggler d-lg-none"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapsibleNavId"
-                        aria-controls="collapsibleNavId"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"></button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Cursos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Docentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contactos</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </nav>
-
-            </div>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">IE NOVEL</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Docentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </header>
+    </header>  
+    
     <div class="banner">
         <div class="container">
-            <img class="banner_img" src="./IMG/banner.jpg" alt="">
-            <div class="banner_mensaje">
-                <h2 class="banner_titulo">La Mejor Eduacion a tu alcance</h2>
-                <p class="banner_txt">Estudia con nosotros y alcanza tus metas</p>
+            
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+              
+               
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/banner.jpg" alt="Comunidad">
+                    <div class="banner_mensaje">
+                    <div class="carousel-caption">
+                        <h3>Comunidad Universitaria</h3>
+                        <p>Contamos con una excelente comunidad estudiantil a demas de interesantes actividades extracurriculares</p>
+                    </div>
+                </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMG/slider2.jpeg" alt="Egresados">
+                    <div class="banner_mensaje">
+                    <div class="carousel-caption"> 
+                        <h3>Nuestros Egresados</h3>
+                        <p>Se Colocan en los mejores puestos de trabajo<p>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="./IMG/slider3.jpg" alt="Profesores">
+                    <div class="banner_mensaje">
+                    <div class="carousel-caption">
+                        <h3>Calidad Docente</h3>
+                        <p>Contamos con profesores que con posgrado ampliamente experimentados en campo</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              
+               
             </div>
         </div>
+        
     </div>
-
     <main>
         <div class="container">
             <section class="info row">
                 <article class="col-sm-4">
                     <div class="info_columna">
-                        <img src="./IMG/img1.jpg" alt="" class="img-responsive">
-                        <div class="descripcion">
-                            <h3>Titulo1</h3>
-                            <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                                impedit rem repellendus dolores.</p>
-
-                        </div>
-
+                        <img src="./img/img1.jpg" alt="" class="img-responsive">
+                        <h3>Titulo 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis facilis eum doloremque, ratione ipsa?</p>
                     </div>
-
                 </article>
                 <article class="col-sm-4">
                     <div class="info_columna">
-                        <img src="./IMG/img1.jpg" alt="" class="img-responsive">
-                        <div class="descripcion">
-                            <h3>Titulo1</h3>
-                            <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                                impedit rem repellendus dolores.</p>
-
-                        </div>
+                        <img src="./img/img1.jpg" alt="" class="img-responsive">
+                        <h3>Titulo 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis facilis eum doloremque, ratione ipsa?</p>
                     </div>
-
                 </article>
                 <article class="col-sm-4">
                     <div class="info_columna">
-                        <img src="./IMG/img1.jpg" alt="" class="img-responsive">
-                        <div class="descripcion">
-                            <h3>Titulo1</h3>
-                            <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                                impedit rem repellendus dolores.</p>
-
-                        </div>
+                        <img src="./img/img1.jpg" alt="" class="img-responsive">
+                        <h3>Titulo 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis facilis eum doloremque, ratione ipsa?</p>
                     </div>
-
                 </article>
-
             </section>
-
             <section class="cursos row">
                 <h2 class="cursos_titulo">Nuestros Cursos</h2>
                 <div class="col-sm-6 cursos_columna">
-                    <img src="./IMG/img2.jpg" alt="" class="img-responsive">
+                    <img src="img/img2.jpg" alt="" class="img-responsive">
                     <div class="cursos_descripcion">
-                        <h3>PRogramacion</h3>
-                        <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                            impedit rem repellendus dolores.</p>
-
+                        <h3>Programación</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti veniam qui, fugiat perspiciatis labore.</p>
                     </div>
-
                 </div>
-
                 <div class="col-sm-6 cursos_columna">
-                    <img src="./IMG/img2.jpg" alt="" class="img-responsive">
+                    <img src="img/img2.jpg" alt="" class="img-responsive">
                     <div class="cursos_descripcion">
-                        <h3>DISEÑO WEB</h3>
-                        <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                            impedit rem repellendus dolores.</p>
-
+                        <h3>Diseño Web</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti veniam qui, fugiat perspiciatis labore.</p>
                     </div>
-
                 </div>
-
                 <div class="col-sm-6 cursos_columna">
-                    <img src="./IMG/img2.jpg" alt="" class="img-responsive">
+                    <img src="img/img2.jpg" alt="" class="img-responsive">
                     <div class="cursos_descripcion">
-                        <h3>DISEÑO GRAFICO</h3>
-                        <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                            impedit rem repellendus dolores.</p>
-
-                    </div>
+                        <h3>Diseño Gráfico</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti veniam qui, fugiat perspiciatis labore.</p>
+                    </div>    
                 </div>
-
                 <div class="col-sm-6 cursos_columna">
-                    <img src="./IMG/img2.jpg" alt="" class="img-responsive">
+                    <img src="img/img2.jpg" alt="" class="img-responsive">
                     <div class="cursos_descripcion">
-                        <h3>REDES</h3>
-                        <p>Lorem ipsum dolor sit ame1t consectetur adipisicing elit. Velit, sint hic
-                            impedit rem repellendus dolores.</p>
-
-                    </div>
-
+                        <h3>Redes</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti veniam qui, fugiat perspiciatis labore.</p>
+                    </div>    
                 </div>
-
             </section>
-
         </div>
     </main>
-
     <footer>
         <div class="social">
             <a href="#" class="icon-facebook"></a>
-            <a href="#" class="icon-vine"></a>
-            <a href="#" class="icon-google-plus"></a>
             <a href="#" class="icon-twitter"></a>
-
+            <a href="#" class="icon-google-plus"></a>
+            <a href="#" class="icon-facebook"></a>
         </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
